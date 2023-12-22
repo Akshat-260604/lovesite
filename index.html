@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>You wanna go out with me?</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>I like you. Do you like me?</h1>
+
+    <div class="container">
+        <div class="gif-container">
+            <iframe src="kiss-blow-kiss.gif" width="400px" height="400px" outline="none"></iframe>
+        </div>
+        <div class="buttons">
+            <button class="btn" id="yesButton" onclick="nextPage()">Yes</button>
+            <button class="btn" id="noButton" onclick="nextPage2()">No</button>
+            <h3>Made with love by yours truly Akshat.</h3>
+
+            <script>
+                function nextPage() {
+                    window.location.href = "yes.html";
+                }
+                function nextPage2() {
+                    window.location.href = "no.html";
+                }
+
+
+            </script>
+        </div>
+    </div>
+
+
+</body>
+
+</html>

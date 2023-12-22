@@ -1,0 +1,48 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  background-color: pink;
+  background-image: url("WhatsApp\ Image\ 2023-12-23\ at\ 00.30.25_feb00fb6.jpg");
+}
+
+.gif-container {
+  margin: 6rem 0 0 1rem;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn {
+  background-color: chartreuse;
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 2rem;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: brown;
+  transition: 0.2s;
+}
+
+.jumpscare {
+  background-color: black;
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  margin-top: 76rem;
+}
+
+h3 {
+  margin: 40px;
+}
